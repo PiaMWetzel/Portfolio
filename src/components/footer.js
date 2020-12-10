@@ -9,7 +9,7 @@ const Footer = () =>
         <div className={footerStyle.container} id="contact">
             <p className={footerStyle.title}>contact</p> 
             <div className={footerStyle.wrapper}>
-            <a href = "www.linkedin.com/in/pia-wetzel-17a0351b9/" target = "_blank"><img src={linkedin}/></a> | <a href = "github.com/piamwetzel" target = "_blank"><img src={github}/> </a>| <p>mail</p>
+            <a href = "https://linkedin.com/in/pia-wetzel-17a0351b9/" target = "_blank"><img src={linkedin}/></a> | <a href = "https://github.com/piamwetzel" target = "_blank"><img src={github}/> </a>| <p>mail</p>
             </div>
         </div>
     )
