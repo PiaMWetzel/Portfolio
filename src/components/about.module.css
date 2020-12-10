@@ -4,7 +4,7 @@
 }
 
 .title {
-  margin-left: 50px;
+  margin-left: 60px;
   color: #5b5b5b;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -27,13 +27,14 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 15px;
+  margin-left: 25px;
   margin-right: 15px;
   color: #5b5b5b;
 }
 
 .image {
   background-color: white;
-
+  margin-right: 15px;
   text-align: center;
 }
 

@@ -22,8 +22,17 @@
 }
 
 .sub_headline {
-  font-size: 2.5vw;
+  font-size: 15px;
   font-weight: bolder;
   background-color: black;
   color: #5b5b5b;
+}
+
+@media (min-width: 576px) {
+  .sub_headline {
+    font-size: 2.5vw;
+    font-weight: bolder;
+    background-color: black;
+    color: #5b5b5b;
+  }
 }
