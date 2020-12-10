@@ -1,7 +1,7 @@
 import React from 'react'
 import footerStyle from '../components/footer.module.css'
-import linkedin from '../static/icons/LI-Logo.png'
-import github from '../static/icons/GitHub-Mark-64px.png'
+import linkedin from '../static/LI-Logo.png'
+import github from '../static/GitHub-Mark-64px.png'
 
 const Footer = () =>
 {

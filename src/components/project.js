@@ -1,7 +1,7 @@
 import React from 'react'
 import projectStyle from '../components/project.module.css'
-import sample from '../static/projects/quizzly.png'
-import git from '../static/icons/GitHub-Mark-Light-32px.png'
+import sample from '../static/quizzly.png'
+import git from '../static/GitHub-Mark-Light-32px.png'
 
 const Project = () =>
 {

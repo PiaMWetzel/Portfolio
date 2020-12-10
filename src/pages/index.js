@@ -1,7 +1,7 @@
 import React from "react"
 import {Link} from 'gatsby'
 
-import Layout from "../components/layout"
+
 import Stack from "../components/stack"
 import Navbar from "../components/navbar"
 import Square from "../components/square"
