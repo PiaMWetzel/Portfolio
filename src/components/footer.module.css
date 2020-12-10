@@ -25,14 +25,15 @@
   margin: 5px;
 }
 
-.wrapper p {
+.wrapper a p {
   opacity: 1;
   cursor: pointer;
+  color: black;
   margin: 5px;
 }
 
 .wrapper img:hover,
-.wrapper p:hover {
+.wrapper a p:hover {
   opacity: 0.7;
 }
 
