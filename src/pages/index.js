@@ -13,9 +13,9 @@ import indexStyle from "../components/index.module.css"
 
 //images
 import quizzly from '../static/quizzly.png'
-import words_with_twitter from '../static/words_with_twitter.PNG'
-import website from '../static/website.PNG'
-import isithottoday from '../static/isithottoday.PNG'
+import words_with_twitter from '../static/words_with_twitter.png'
+import website from '../static/website.png'
+import isithottoday from '../static/isithottoday.png'
 
 //P1
 const title_p1 = "[Words] with Twitter"
