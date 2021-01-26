@@ -1,0 +1,47 @@
+.container {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+  padding-top: 100px;
+  justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+  color: black;
+  font-size: 25px;
+}
+
+.wrapper img {
+  height: 25px;
+  opacity: 1;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.wrapper a p {
+  opacity: 1;
+  cursor: pointer;
+  color: black;
+  margin: 5px;
+}
+
+.wrapper img:hover,
+.wrapper a p:hover {
+  opacity: 0.7;
+}
+
+.title {
+  margin-left: 60px;
+  color: #5b5b5b;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+}
