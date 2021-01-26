@@ -9,11 +9,12 @@ const About = () =>
             <div className={aboutStyle.wrapper}>
                 <div className={aboutStyle.intro}>
                     <p>
-                    "I'm Pia, a Software Engineer living in Los Angeles. I like combining my frontend and backend skills to turn small ideas into working products.
-                    I have a broad interest in anything computer-science-related and
+                    <p><b>I'm</b> Pia, a Software Engineer living in LA. </p>
+                    <p>I like combining my frontend and backend skills to turn small ideas into working products.</p>
+                    <p><b>Having</b> a broad interest in anything computer-science-related,
                     my curiosity is the constant driving force behind learning new things - I just started dipping my toes into data science,
-                    wich is a super fascinating subject to me. 
-                    Other than programming, I enjoy traveling, hiking in SoCal, drawing, and discovering new restaurants."
+                    wich is a super fascinating subject to me. </p>
+                    <b>Other</b> than programming, I enjoy traveling, hiking in SoCal, drawing, and discovering new restaurants.
                     </p>
                 </div>
                 <div className={aboutStyle.image}><img src={pic}/></div>

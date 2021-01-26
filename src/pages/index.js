@@ -13,7 +13,7 @@ import indexStyle from "../components/index.module.css"
 
 //images
 import quizzly from '../static/quizzly.png'
-import words_with_twitter from '../static/words_with_twitter.png'
+import wwt from '../static/wwt.png'
 import website from '../static/website.png'
 import isithottoday from '../static/isithottoday.png'
 
@@ -59,20 +59,15 @@ const IndexPage = () =>
 {
   return(
     <div className={indexStyle}>
-    <Navbar id = "home">helo</Navbar>
+    <Navbar id = "home"></Navbar>
     <Square id = "about"></Square>
     <About></About>
-    <Project imageurl={words_with_twitter} tech = {tech_p1} desc = {desc_p1} title = {title_p1} git = {git_link_p1} ext = {ext_link_p1}></Project>
+    <Project imageurl={wwt} tech = {tech_p1} desc = {desc_p1} title = {title_p1} git = {git_link_p1} ext = {ext_link_p1}></Project>
     <Project2 imageurl={quizzly} tech = {tech_p2} desc = {desc_p2} title = {title_p2} git = {git_link_p2} ext = {ext_link_p2}></Project2>
     <Project imageurl={website} tech = {tech_p3} desc = {desc_p3} title = {title_p3} git = {git_link_p3} ext = {ext_link_p3}></Project>
     <Project2 imageurl={isithottoday} tech = {tech_p4} desc = {desc_p4} title = {title_p4} git = {git_link_p4} ext = {ext_link_p4}></Project2>
     <Footer></Footer>
     </div>
-
-    // <Stack>
-    //   <p> Hello, my name is Pia.</p>
-    //   <p>I'm a software engineer based in Los Angeles.</p>
-    // </Stack>
   )
 }
 

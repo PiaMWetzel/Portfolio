@@ -22,6 +22,7 @@
 .intro {
   background-color: white;
   display: flex;
+  flex-direction: row;
   align-items: center;
   width: 300px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -30,6 +31,10 @@
   margin-left: 25px;
   margin-right: 15px;
   color: #5b5b5b;
+}
+
+.intro p {
+  margin-bottom: 5px;
 }
 
 .image {
