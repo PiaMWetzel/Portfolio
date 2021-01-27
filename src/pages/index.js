@@ -24,7 +24,7 @@ const desc_p1 = "A full stack web application analyzing the word usage in Twitte
 + "Displays the top 10 most used words (or words stems) and frequency";
 const tech_p1 = "React | Flask | Tweeply | Python | JavaScript | HTML | CSS";
 const git_link_p1 = "https://github.com/PiaMWetzel/twitter_words";
-const ext_link_p1 = "http://wordswithtwitter.herokuapp.com/";
+const ext_link_p1 = "https://piamwetzel.github.io/words_w_twitter_frontend";
 
 
 //P2
