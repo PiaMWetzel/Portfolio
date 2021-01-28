@@ -23,7 +23,7 @@ const desc_p1 = "Implemented RESTful full-stack web application to analyze and d
 + "Utilized Tweepy library to fetch Tweets and processed content using the Natural Language Toolkit.";
 const tech_p1 = "React | Flask | Tweepy | Python | JavaScript | HTML | CSS";
 const git_link_p1 = "https://github.com/PiaMWetzel/twitter_words";
-const ext_link_p1 = "http://wordswithtwitter.herokuapp.com/";
+const ext_link_p1 = "https://piamwetzel.github.io/words_w_twitter_frontend/";
 
 
 //P2
