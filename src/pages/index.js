@@ -19,39 +19,35 @@ import isithottoday from '../static/isithottoday.png'
 
 //P1
 const title_p1 = "[Words] with Twitter"
-const desc_p1 = "A full stack web application analyzing the word usage in Twitter users' tweets."
-+ "Retrieves a user's last 200 tweets, removes retweets and stopwords, and performs Snowball stemming."
-+ "Displays the top 10 most used words (or words stems) and frequency";
-const tech_p1 = "React | Flask | Tweeply | Python | JavaScript | HTML | CSS";
+const desc_p1 = "Implemented RESTful full-stack web application to analyze and display word usage of Twitter users. "
++ "Utilized Tweepy library to fetch Tweets and processed content using the Natural Language Toolkit.";
+const tech_p1 = "React | Flask | Tweepy | Python | JavaScript | HTML | CSS";
 const git_link_p1 = "https://github.com/PiaMWetzel/twitter_words";
-const ext_link_p1 = "https://piamwetzel.github.io/words_w_twitter_frontend";
+const ext_link_p1 = "http://wordswithtwitter.herokuapp.com/";
 
 
 //P2
 const title_p2 = "Quizzly"
-const desc_p2 = "A full stack web application with the following functionalities:"
-+" play quizzes, create quizzes, upvote and downvote quizzes, sign up/log in, and challenge other users."
-+ " Application provides access to user profile diplaying quiz history and performance history."
-+ " Challenges by other users self-delete after 24 hours ( if not accepted ) to prevent cluttering.";
-const tech_p2 = "Flask | Python | JavaScript | HTML | CSS";
+const desc_p2 = "Programmed quiz application allowing registered users to play quizzes, create quizzes, upvote and downvote quizzes, and challenge other users. "
++ "Designed a lightweight relational SQLite database to store user information and quiz data.";
+const tech_p2 = "Flask | Python | JavaScript | jQuery | Ajax | SQLite | HTML | CSS";
 const git_link_p2 = "https://github.com/PiaMWetzel/Quizzly";
 const ext_link_p2 = "http://quizzlyapp.herokuapp.com/";
 
 //P3
 const title_p3 = "Portfolio"
-const desc_p3 = "Developing my own portfolio website provided me an opportunity to finally learn how to use Gatsby. "
-+ " I was trying to achieve a minimalistic design that still provides enough room for me to highlight projects and introduce myself.";
+const desc_p3 = "Designed and developed static portfolio website (this very site!!!) showcasing work samples.";
 const tech_p3 = "Gatsby | React | JavaScript | HTML | CSS";
 const git_link_p3 = "https://github.com/PiaMWetzel/Portfolio";
 const ext_link_p3 = "https://piawetzel.com";
 
 //P4
 const title_p4 = "IsItHotToday"
-const desc_p4 = "Full stack web app comparing current weather data to historical data of the same day."
-+ " App displays the hottest (and coldest) year of the day, and how today's temperatures compare overall."
-+ " Current temperature data is provded by the National Weather Service."
-+" Historical data is maintained in an .csv file and updated daily using a cron job.";
-const tech_p4 = "Flask | Python | JavaScript | HTML | CSS";
+const desc_p4 = "Built REST web app to compare today's temperatures to historical weather data of same day. "+
+"Created Cron job to daily access current weather data via the NWS API and save to AWS S3 bucket containing historical temperature data since 1921. "
++ "Performed data analysis and visualization with NumPy, Pandas, and Matplotlib."
+;
+const tech_p4 = "Flask | Python | AWS | JavaScript | HTML | CSS | Jinja2";
 const git_link_p4 = "https://github.com/PiaMWetzel/historical_weather";
 const ext_link_p4 = "http://isithottoday.herokuapp.com/";
 
